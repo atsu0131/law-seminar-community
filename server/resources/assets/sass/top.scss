@@ -1,0 +1,50 @@
+#top{
+
+/* ---------
+header
+--------- */
+
+    header{
+        padding: 20px 0;
+    }
+
+    .header-left{
+        float: left;
+    }
+
+    .header-right{
+        float: right;
+    }
+
+    .top{
+        background-color: lightblue;
+
+    }
+
+    .header-title {
+        font-weight: bold;
+        font-size: 24px;
+    }
+
+    .header-nav-item{
+        float: left;
+        margin-left: 50px;
+    }
+
+    .header-nav-item a{
+        font-size: 15px;
+        font-weight: 600;
+        line-height: 36px;
+    }
+
+    .top-image img{
+        height: 400px;
+        width: 100%;
+    }
+
+    .information{
+        padding: 40px 0;
+        text-align: center;
+        font-size: 24px;
+    }
+}
