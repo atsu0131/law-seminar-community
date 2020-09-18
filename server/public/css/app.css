@@ -11015,6 +11015,22 @@ ul {
   font-size: 24px;
 }
 
+#top .box {
+  height: 200px;
+  width: 100%;
+}
+
+#top ul.box-outline {
+  display: flex;
+}
+
+#top ul.box-outline li.box-inner {
+  height: 200px;
+  width: 30%;
+  margin: 5% 5%;
+  background-color: blue;
+}
+
 body {
   color: #082B48;
   font-family: Verdana, Geneva, Tahoma, sans-serif;

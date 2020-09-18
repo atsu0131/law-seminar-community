@@ -26,6 +26,13 @@
     </section>
     <section class="information">
         <p>法学部OBOG、法律を学びたい人、法律に興味のある人のコミュニティです。</p>
+        <div class="box">
+            <ul class="box-outline">
+                <li class="box-inner"></li>
+                <li class="box-inner"></li>
+                <li class="box-inner"></li>
+            </ul>
+        </div>
 
     </section>
 </div>

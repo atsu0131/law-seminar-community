@@ -13,8 +13,13 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
+Route::get('/wel', function () {
     return view('welcome');
 });
 
-Route::get('top', 'TopsController@index');
+Route::get('/', 'TopsController@index');
+Route::get('search', 'SearchsController@index');
+Route::get('group', 'GroupsController@index');
+Route::get('mypage', 'MypagesController@index');
+
+Route::get('murmur', 'MurmursController@index');
